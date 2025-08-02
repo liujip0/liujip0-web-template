@@ -1,0 +1,11 @@
+.errorBoundaryMain {
+  padding: 16px 4px 4px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.errorBoundaryPre {
+  width: 100%;
+  padding: 4px;
+  overflow-x: auto;
+}

@@ -1,6 +1,6 @@
 import { D1Database } from "@cloudflare/workers-types";
 import {
-  FetchCreateContextFnOptions,
+  type FetchCreateContextFnOptions,
   fetchRequestHandler,
 } from "@trpc/server/adapters/fetch";
 import { createContext } from "./context.ts";
