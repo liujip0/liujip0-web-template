@@ -1,2 +1,6 @@
+packages:
+  - app
+  - api
+
 onlyBuiltDependencies:
   - esbuild
