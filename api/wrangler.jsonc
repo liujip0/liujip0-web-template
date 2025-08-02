@@ -1,4 +1,5 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "liujip0-web-template-api",
   "main": "src/index.ts",
   "compatibility_date": "2025-08-01",
