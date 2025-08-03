@@ -25,3 +25,7 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1;
+}
