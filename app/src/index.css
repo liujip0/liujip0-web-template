@@ -1,14 +1,34 @@
 :root {
-  --text-font-family: ;
-  --text-body-size: ;
-  --text-h1-size: ;
+  --text-font-family: initial; /* default: sans-serif */
+  --text-body-size: initial; /* default: 1em */
+  --text-h1-size: initial; /* default: 2em */
+  --text-h2-size: initial; /* default: 1.5em */
+  --text-label-size: initial; /* default: 0.9em */
+  --text-helperText-size: initial; /* default: 0.75em */
 
-  --color-primary: ;
-  --color-primary-contrastText: ;
-  --color-secondary: ;
-  --color-secondary-contrastText: ;
-  --color-background: ;
-  --color-background-contrastText: ;
+  --color-primary: initial; /* default: blue */
+  --color-primary-contrastText: initial; /* default: white */
+  --color-secondary: initial; /* default: orange */
+  --color-secondary-contrastText: initial; /* default: white */
+  --color-background: initial; /* default: white */
+  --color-background-contrastText: initial; /* default: black */
+  --color-paper: initial; /* default: gray */
+  --color-paper-contrastText: initial; /* default: black */
+  --color-error: initial; /* default: red */
+
+  --z-index-backdrop: initial; /* default: 99 */
+  --z-index-snackbar: initial; /* default: 100 */
+  --z-index-modal: initial; /* default: 101 */
+  --z-index-tooltip: initial; /* default: 102 */
+
+  --border-radius: initial; /* default: 0 */
+  --border-width: initial; /* default: 1px */
+  --input-height: initial; /* default: calc(37.6 + 8px) */
+  --hover-dim: initial; /* default: brightness(0.8) */
+
+  --table-cell-padding: initial; /* default: 8px */
+  --table-border-width: initial; /* default: 3px */
+  --table-cell-border-width: initial; /* default: 2px */
 }
 
 * {
